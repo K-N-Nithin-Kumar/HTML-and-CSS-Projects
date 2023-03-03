@@ -1,0 +1,184 @@
+<html lang="en">
+
+<head>
+          <meta charset="UTF-8"/>
+          <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+            <!--Google font icons-->
+                    <!--Linking css file with html file-->
+          <link href="anadhyantha.css" rel="stylesheet"/>
+
+          <title>application form</title>
+</head>
+<div class="container">
+  <header class="header">
+          <h1 id="title" class="text-center">Nitte Meenakshi Institute Of Technology</h1>
+          <p id="description" class="description text-center">
+            (An Autonumous Institution,affiliated to NAAC with A+ grade.)
+          </p>
+          <h2 style="padding-left:185px;">Survey for Anadhyantha</h2>
+  </header>
+  <form id="survey-form">
+    <div class="form-group">
+      <label id="name-label" for="name">Name</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        class="form-control"
+        placeholder="Enter your name"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label id="email-label" for="email">Email</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        class="form-control"
+        placeholder="Enter your Email"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label id="number-label" for="number"
+        >Phone Number</label
+      >
+      <input
+        type="text"
+        maxlength="10"
+        name="number"
+        id="number"
+        class="form-control"
+        placeholder="Contact Number"
+      />
+    </div>
+    <div class="form-group">
+      <p>Branch</p>
+      <select id="dropdown" name="role" class="form-control" required>
+        <option disabled selected value>Select Branch </option>
+        <option value="CSE">CSE</option>
+        <option value="ISE">ISE</option>
+        <option value="AIML">AI-ML</option>
+        <option value="AI DS">AI-DS</option>
+        <option value="ECE">ECE</option>
+        <option value="EEE">EEE</option>
+        <option value="AE">Aero</option>
+        <option value="ME">ME</option>
+      <option value="CE">
+        Civil</option>
+
+      </select>
+    </div>
+
+    <div class="form-group">
+      <p>Semester</p>
+      <label>
+        <input
+          name="semester"
+          value="1st"
+          type="radio"
+          class="input-radio"
+               />1st</label>
+
+      <label>
+        <input
+          name="semester"
+          value="3rd"
+          type="radio"
+          class="input-radio"
+        />3rd</label
+      >
+
+      <label
+        ><input
+          name="semester"
+          value="5th"
+          type="radio"
+          class="input-radio"
+        />5th</label
+      >
+      <label>
+       <input
+              name="semester"
+              value"7th"
+              type="radio"
+              class="input-radio"/>7th</label>
+
+    </div>
+
+    <div class="form-group">
+      <p>
+        How do you help in anadhyantha
+      </p>
+      <select id="most-like" name="mostLike" class="form-control" required>
+        <option disabled selected value>Select an option</option>
+        <option value="Tech">Technology related organiser</option>
+        <option value="projects">Projects</option>
+        <option value="cultural">Cultural programs</option>
+        <option value="Event-lead">event-lead</option>
+        <option value="sponsership">Sponsership-lead</option>
+        <option value="food">Food incharge</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <p>
+        Did you took any leadership for anadhyantha events in previous years
+        <span class="clue"
+                     </span>
+      </p>
+
+      <label
+        ><input
+          name="prefer"
+          value="Yes"
+          type="checkbox"
+          class="input-checkbox"
+        />Yes</label
+      >
+      <label>
+        <input
+          name="prefer"
+          value="No"
+          type="checkbox"
+          class="input-checkbox"
+        />No</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="Just-partcipated"
+          type="checkbox"
+          class="input-checkbox"
+        />particpated in the events not took any leadership</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="Fresher"
+          type="checkbox"
+          class="input-checkbox"
+        />Fresher to college</label
+      >
+
+    </div>
+
+    <div class="form-group">
+      <p>Any comments or suggestions?</p>
+      <textarea
+        id="comments"
+        class="input-textarea"
+        name="comment"
+        placeholder="Enter your comment here..."
+      ></textarea>
+    </div>
+
+    <div class="form-group">
+      <button type="submit" id="submit" class="submit-button">
+        Submit
+      </button>
+    </div>
+  </form>
+</div>

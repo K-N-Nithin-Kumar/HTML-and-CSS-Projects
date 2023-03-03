@@ -91,6 +91,8 @@ ul{
     background-color: #4fb3d4;
     background-image:url(./assets/asset\ 32.png); 
     background-size: 300px;  
+    position: sticky;
+    top: 0%;
 }
 
 .banner-text{
@@ -98,6 +100,8 @@ ul{
     padding: 12px 30px;
     text-align: center;
 }
+
+
 /* banner ends */
 
 /* Navbar starts */
